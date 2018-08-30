@@ -1,4 +1,4 @@
-const reverse = require("esrever");
+const reverse = require("esrever").reverse;
 
 /**
 	* Checks if a string is palindromic.
