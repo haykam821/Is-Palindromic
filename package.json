@@ -1,0 +1,10 @@
+{
+	"name": "is-palindromic",
+	"description": "",
+	"dependencies": {
+		"esrever": "0.2.0"
+	},
+	"main": "./index.js",
+	"author": "haykam821",
+	"license": "MIT"
+}
