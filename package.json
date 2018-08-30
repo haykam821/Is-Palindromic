@@ -4,6 +4,13 @@
 	"dependencies": {
 		"esrever": "0.2.0"
 	},
+	"devDependencies": {
+		"mocha": "^5.2.0",
+		"chai": "^4.1.2"
+	},
+	"scripts": {
+		"test": "mocha"
+	}
 	"main": "./index.js",
 	"author": "haykam821",
 	"license": "MIT"
