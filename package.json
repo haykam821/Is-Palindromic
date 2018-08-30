@@ -10,7 +10,7 @@
 	},
 	"scripts": {
 		"test": "mocha"
-	}
+	},
 	"main": "./index.js",
 	"author": "haykam821",
 	"license": "MIT"
