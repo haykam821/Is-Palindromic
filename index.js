@@ -1,4 +1,4 @@
-const reverse = require("esrever").reverse;
+var reverse = require("esrever").reverse;
 
 /**
 	* Checks if a string is palindromic.
@@ -6,7 +6,10 @@ const reverse = require("esrever").reverse;
 	* @param {boolean} caseSensitive Whether to consider different casing as not palindromic.
 	* @returns {boolean}
 */
-module.exports = (string, caseSensitive = true) => {
-	const casedStr = caseSensitive ? string : string.toLowerCase();
-	return casedStr === reverse(casedStr);
+module.exports = function isPalindromic(string, caseSensitive) => {
+	if (caseSensitive || caseSensitive === undefined) {
+		return string.toLowerCase() === reverse(casedStr);
+	} else {
+		return string === reverse(casedStr);
+	}
 };
