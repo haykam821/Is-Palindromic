@@ -8,8 +8,9 @@ var reverse = require("esrever").reverse;
 */
 module.exports = function isPalindromic(string, caseSensitive) {
 	if (caseSensitive || caseSensitive === undefined) {
-		return string.toLowerCase() === reverse(casedStr);
+		var uncased = string.toLowerCase();
+		return uncased === reverse(uncased);
 	} else {
-		return string === reverse(casedStr);
+		return string === reverse(string);
 	}
 };
