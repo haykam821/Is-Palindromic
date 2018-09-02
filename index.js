@@ -7,7 +7,7 @@ var reverse = require("esrever").reverse;
 	* @returns {boolean}
 */
 module.exports = function isPalindromic(string, caseSensitive) {
-	if (caseSensitive || caseSensitive === undefined) {
+	if (!caseSensitive) {
 		var uncased = string.toLowerCase();
 		return uncased === reverse(uncased);
 	} else {
