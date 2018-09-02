@@ -1,6 +1,7 @@
 {
 	"name": "is-palindromic",
-	"description": "",
+	"description": "Checks if a string is palindromic.",
+	"version": "1.0.0",
 	"dependencies": {
 		"esrever": "0.2.0"
 	},
