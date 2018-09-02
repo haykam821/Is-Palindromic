@@ -5,11 +5,10 @@
 		"esrever": "0.2.0"
 	},
 	"devDependencies": {
-		"mocha": "^5.2.0",
-		"chai": "^4.1.2"
+		"ava": "^0.25.0"
 	},
 	"scripts": {
-		"test": "mocha"
+		"test": "ava test.js"
 	},
 	"main": "./index.js",
 	"author": "haykam821",

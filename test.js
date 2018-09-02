@@ -1,20 +1,13 @@
-/* eslint-env mocha */
-
-const chai = require("chai");
-const assert = chai.assert;
-
+const ava = require("ava");
 const isPalindromic = require(".");
-
 const casedPalin = "abcCBA";
 
-describe(`case-sensitive option`, function () {
-	it("does not accept cased palindrome when unspecified", function () {
-		assert.strictEqual(isPalindromic(casedPalin, true), false);
-	});
-	it("does not accept cased palindrome when on", function () {
-		assert.strictEqual(isPalindromic(casedPalin, true), false);
-	});
-	it("does accept cased palindrome when off", function () {
-		assert.strictEqual(isPalindromic(casedPalin, false), true);
-	});
+ava("case-sensitive option does not accept cased palindrome when unspecified", function (test) {
+	test.is(isPalindromic(casedPalin, true), false);
+});
+ava("case-sensitive option does not accept cased palindrome when on", function (test) {
+	test.is(isPalindromic(casedPalin, true), false);
+});
+ava("case-sensitive option does accept cased palindrome when off", function (test) {
+	test.is(isPalindromic(casedPalin, false), true);
 });
