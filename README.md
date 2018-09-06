@@ -28,3 +28,7 @@ isPalin("abc CBA", true); // false
 
 isPalin("abc CBA", false); // true
 ```
+
+## Similar Work
+
+This module is similar to [`is-palindrome`](https://github.com/jaredcacurak/is-palindrome), but is *much* simpler, has a case-sensitivity option, and accounts for Unicode.
