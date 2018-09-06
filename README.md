@@ -29,6 +29,14 @@ isPalin("abc CBA", true); // false
 isPalin("abc CBA", false); // true
 ```
 
+## Tests
+
+Tests are done via [`ava`](), are stored in [their own file](https://github.com/haykam821/Is-Palindromic/blob/master/test.js), and are run by the following command:
+
+    npm test
+
+Travis CI automatically runs tests as well.
+
 ## Similar Work
 
 This module is similar to [`is-palindrome`](https://github.com/jaredcacurak/is-palindrome), but is *much* simpler, has a case-sensitivity option, and accounts for Unicode.
