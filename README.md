@@ -31,7 +31,7 @@ isPalin("abc CBA", false); // true
 
 ## Tests
 
-Tests are done via [`ava`](), are stored in [their own file](https://github.com/haykam821/Is-Palindromic/blob/master/test.js), and are run by the following command:
+Tests are done via [`ava`](https://github.com/avajs/ava), are stored in [their own file](https://github.com/haykam821/Is-Palindromic/blob/master/test.js), and are run by the following command:
 
     npm test
 
