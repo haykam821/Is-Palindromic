@@ -11,3 +11,20 @@ Checks if a string is palindromic.
 As the module is available on [npm](https://www.npmjs.com/package/is-palindromic), all you need to do is install it via its name:
 
     npm install is-palindromic --save
+
+## Usage
+
+Require it in your code like so:
+
+```js
+const isPalin = require("is-palindromic");
+```
+
+The module exports a single function, which will always return a boolean. Specify your string in the first parameter. By default, it is case-sensitive, but by changing the second parameter to `false`, it will be case-insensitive:
+
+```js
+isPalin("abc CBA"); // false
+isPalin("abc CBA", true); // false
+
+isPalin("abc CBA", false); // true
+```
