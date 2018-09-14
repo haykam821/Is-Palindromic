@@ -35,7 +35,7 @@ Tests are done via [`ava`](https://github.com/avajs/ava), are stored in [their o
 
     npm test
 
-We use [Travis CI](https://travis-ci.com/haykam821/Is-Palindromic) to ensure that the code passes all its test.
+We use [Travis CI](https://travis-ci.com/haykam821/Is-Palindromic) to ensure that the code passes all of its tests.
 
 ## Similar Work
 
